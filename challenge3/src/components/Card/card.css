@@ -1,0 +1,72 @@
+.card {
+    background-color: #2B2;
+    border-radius : 10px;
+    margin: 1em;
+    padding: 1em;
+    width: 15rem;
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items : center;
+  }
+  
+  .img-criador {
+    border-radius: 30%;
+    width: 65%;
+    height: auto;
+  }
+  
+  .link-to-repository {
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    color: white;
+  }
+  
+  .text_footer {
+    color: white;
+    font-family: "Exo", san;
+    font-weight : 400;
+    font-size: 20px;
+    letter-spacing: .06em;
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  .card__link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1024px){
+    .card {
+      width: 12rem;
+    }
+  
+    .img-criador {
+      width: 75%;
+    }
+  }
+  
+  @media (max-width: 768px){
+    .criadores_main {
+      flex-direction: colum;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 15rem;
+      margin: 1rem 0;
+    }
+  
+    .img-criador {
+      width: 80%;
+    }
+  }
+  
